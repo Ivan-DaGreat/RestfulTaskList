@@ -1,0 +1,1 @@
+RedirectMatch "^/api/(.*)" "api.php"

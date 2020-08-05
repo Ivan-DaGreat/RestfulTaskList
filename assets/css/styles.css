@@ -1,0 +1,27 @@
+#taskModal label {
+	font-size: 14px;
+}
+#taskModal button.addNewTask, #taskModal button.updateTask {
+	display: none;
+}
+#taskModal.addTask button.addNewTask {
+	display: block;
+}
+#taskModal.editTask button.updateTask {
+	display: block;
+}
+.task-list .task.removed {
+	text-decoration: line-through;
+	opacity: .5;
+}
+.task-list .task:hover {
+	background-color: rgb(255 247 0 / 10%);
+}
+.task-action {
+	opacity: .5;
+}
+.task-action:hover {
+	opacity: 1;
+	color: #0f81cc;
+	cursor: pointer;
+}
